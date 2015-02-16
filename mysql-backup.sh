@@ -3,6 +3,7 @@ storia_env=$1
 #S3 bucket credentials of vstplayground aws account.
 export AWS_ACCESS_KEY_ID=AKIAIF5MBMNFVN24FMLQ
 export AWS_SECRET_ACCESS_KEY=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
+pwd
 source env_$storia_env.sh
 bucket=$S3bucket
 YEAR=$(date +"%Y")
